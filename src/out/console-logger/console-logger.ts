@@ -19,6 +19,6 @@ export class ConsoleLogger implements IStreamLogger {
   }
 
   end(): void {
-    console.log('Готово');
+    console.log('Done');
   }
 }
