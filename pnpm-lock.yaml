@@ -6,37 +6,37 @@ settings:
 
 dependencies:
   inquirer:
-    specifier: ^8.2.0
-    version: 8.2.0
+    specifier: ^8.2.6
+    version: 8.2.6
 
 devDependencies:
   '@types/inquirer':
-    specifier: ^8.2.0
-    version: 8.2.0
+    specifier: ^9.0.3
+    version: 9.0.3
   '@types/node':
-    specifier: ^17.0.14
-    version: 17.0.14
+    specifier: ^20.4.8
+    version: 20.4.8
   prettier:
-    specifier: ^3.0.0
-    version: 3.0.0
+    specifier: ^3.0.1
+    version: 3.0.1
 
 packages:
 
-  /@types/inquirer@8.2.0:
-    resolution: {integrity: sha512-BNoMetRf3gmkpAlV5we+kxyZTle7YibdOntIZbU5pyIfMdcwy784KfeZDAcuyMznkh5OLa17RVXZOGA5LTlkgQ==}
+  /@types/inquirer@9.0.3:
+    resolution: {integrity: sha512-CzNkWqQftcmk2jaCWdBTf9Sm7xSw4rkI1zpU/Udw3HX5//adEZUIm9STtoRP1qgWj0CWQtJ9UTvqmO2NNjhMJw==}
     dependencies:
       '@types/through': 0.0.30
       rxjs: 7.8.1
     dev: true
 
-  /@types/node@17.0.14:
-    resolution: {integrity: sha512-SbjLmERksKOGzWzPNuW7fJM7fk3YXVTFiZWB/Hs99gwhk+/dnrQRPBQjPW9aO+fi1tAffi9PrwFvsmOKmDTyng==}
+  /@types/node@20.4.8:
+    resolution: {integrity: sha512-0mHckf6D2DiIAzh8fM8f3HQCvMKDpK94YQ0DSVkfWTG9BZleYIWudw9cJxX8oCk9bM+vAkDyujDV6dmKHbvQpg==}
     dev: true
 
   /@types/through@0.0.30:
     resolution: {integrity: sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==}
     dependencies:
-      '@types/node': 17.0.14
+      '@types/node': 20.4.8
     dev: true
 
   /ansi-escapes@4.3.2:
@@ -173,9 +173,9 @@ packages:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: false
 
-  /inquirer@8.2.0:
-    resolution: {integrity: sha512-0crLweprevJ02tTuA6ThpoAERAGyVILC4sS74uib58Xf/zSr1/ZWtmm7D5CI+bSQEaA04f0K7idaHpQbSWgiVQ==}
-    engines: {node: '>=8.0.0'}
+  /inquirer@8.2.6:
+    resolution: {integrity: sha512-M1WuAmb7pn9zdFRtQYk26ZBoY043Sse0wVDdk4Bppr+JOXyQYybdtvK+l9wUibhtjdjvtoiNy8tk+EgsYIUqKg==}
+    engines: {node: '>=12.0.0'}
     dependencies:
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -191,6 +191,7 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       through: 2.3.8
+      wrap-ansi: 6.2.0
     dev: false
 
   /is-fullwidth-code-point@3.0.0:
@@ -256,8 +257,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /prettier@3.0.0:
-    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+  /prettier@3.0.1:
+    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -357,4 +358,13 @@ packages:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
     dependencies:
       defaults: 1.0.4
+    dev: false
+
+  /wrap-ansi@6.2.0:
+    resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
+    engines: {node: '>=8'}
+    dependencies:
+      ansi-styles: 4.3.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
     dev: false

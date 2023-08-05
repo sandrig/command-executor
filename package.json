@@ -9,11 +9,11 @@
   "author": "Andrey Savelev",
   "license": "ISC",
   "devDependencies": {
-    "@types/inquirer": "^8.2.0",
-    "@types/node": "^17.0.14",
-    "prettier": "^3.0.0"
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.4.8",
+    "prettier": "^3.0.1"
   },
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.6"
   }
 }
